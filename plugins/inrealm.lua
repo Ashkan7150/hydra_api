@@ -1065,8 +1065,8 @@ return {
     "^[#!/](kill) (chat) (%d+)$",
     "^[#!/](kill) (realm) (%d+)$",
 	"^[#!/](rem) (%d+)$",
-    "^[#!/](addadmin) (.*)$", -- sudoers only
-    "^[#!/](removeadmin) (.*)$", -- sudoers only
+    "^[#!/](addadmin) (.*)$", -- members only
+    "^[#!/](removeadmin) (.*)$", -- members only
 	"[#!/ ](support)$",
 	"^[#!/](support) (.*)$",
     "^[#!/](-support) (.*)$",
