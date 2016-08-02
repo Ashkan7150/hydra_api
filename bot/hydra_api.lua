@@ -234,30 +234,29 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {157059515,103214508},--Sudo users
+    sudo_users = {187653096,177230845},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Api TeleBeyond V1.0 Open Source
+    about_text = [[Api HYDRA_API V1.0 Open Source
 An Advanced Administration Api Bot Based On TeleSeed Written In Lua
 
 Source On GitHub :
-http://GitHub.com/BeyondTeam/Api-TeleBeyond
+http://GitHub.com/Ashkan7150/hydra_api
 
 Sudo Users :
 
-Developer&Founder : @SoLiD021
+Developer&Founder : @Liqueur
 
-Developer&Manager : @idivanmanheb
+Developer&Manager : @Cornershot
 
 Team Channel :
-Telegram.me/BeyondTeam
+Telegram.me/HYDRA_TEAM
 
 Special Thx To :
-@MrHalix
-@TeleProTeam
-And All My Friends :D
+@cornershot
+And All My Friends
 ]],
     help_text_realm = [[
-Realm TeleBeyond Commands:
+Realm HYDRA_API Commands:
 
 !creategroup [Name]
 Create a group
@@ -338,9 +337,9 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
-TeleBeyond V1.0
-Channel : @BeyondTeam
-Source : GitHub.com/BeyondTeam/Api-TeleBeyond
+HYDRA_API V1.0
+Channel : @HYDRA_TEAM
+Source : GitHub.com/Ashkan7150/hydra_api
 ]],
     help_text = [[
 Commands list :
@@ -470,8 +469,8 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 TeleBeyond V1.0
-Channel : @BeyondTeam
-Source : GitHub.com/BeyondTeam/Api-TeleBeyond
+Channel : @HYDRA_TEAM
+Source : GitHub.com/Ashkan7150/hydra_team
 ]],
 	help_text_super =[[
 SuperGroup Commands:
@@ -608,9 +607,9 @@ Returns group logs
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
 *Only owner can use res, setowner, promote, demote, and log commands
-TeleBeyond V1.0
-Channel : @BeyondTeam
-Source : GitHub.com/BeyondTeam/Api-TeleBeyond
+HYDRA_API V1.0
+Channel : @HYDRA_TEAM
+Source : GitHub.com/Ashkan7150/hydra_api
 ]],
   }
   serialize_to_file(config, './data/config.lua')
