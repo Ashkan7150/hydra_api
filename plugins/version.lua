@@ -4,19 +4,17 @@ function run(msg, matches)
   return 'TeleBeyond Api Bot v1.0'.. [[ 
 An Advanced Administration Api Bot Based On TeleSeed
 
-First Time Open Source By @SoLiD021 & @idivanmanheb
+First Time Open Source By @Liqueur & @cornershot
 
 Source On GitHub :
-http://GitHub.com/BeyondTeam/Api-TeleBeyond
+http://GitHub.com/Ashkan7150/hydra_api
 
 Sudo Users :
 
-Developer&Founder : @SoLiD021
-
-Helper&Manager : @idivanmanheb
+Developer&Founder : @Liqueur&@cornershot
 
 Team Channel :
-Telegram.me/BeyondTeam]]
+Telegram.me/HYDRA_TEAM]]
 end
 
 return {
