@@ -232,7 +232,13 @@ function create_config( )
     "version",
 	"supergroup",
 	"whitelist",
-	"msg_checks"
+	"msg_checks",
+	"wlc",
+	"start",
+	"linkpv",
+	"spam",
+	"time",
+	"me"
     },
     sudo_users = {187653096,177230845},--Sudo users
     moderation = {data = 'data/moderation.json'},
